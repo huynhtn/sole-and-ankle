@@ -1,11 +1,11 @@
-import React from 'react';
-import styled from 'styled-components/macro';
+import React from "react";
+import styled from "styled-components/macro";
 
-import { WEIGHTS } from '../../constants';
+import { WEIGHTS } from "../../constants";
 
 const Logo = (props) => {
   return (
-    <Link href="/">
+    <Link href='/'>
       <Wrapper {...props}>Sole&amp;Ankle</Wrapper>
     </Link>
   );
@@ -14,6 +14,7 @@ const Logo = (props) => {
 const Link = styled.a`
   text-decoration: none;
   color: inherit;
+  flex-basis: 370px;
 `;
 
 const Wrapper = styled.h1`
